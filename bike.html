@@ -33,6 +33,9 @@
   .font-popin{
     font-family: 'Poppins', sans-serif;
   }
+  .ul-style{
+    list-style: none;
+  }
 </style>
 
 </head>
@@ -187,11 +190,11 @@
 
         <h3 class="text-5xl font-semibold text-center mb-5">Latest News</h3>
 
-        <div class="flex  flex-col lg:flex-row lg:justify-around">
+        <div class="flex  flex-col  items-center lg:flex-row lg:justify-around w-100%">
 
-          <div class="card card-compact w-96 bg-base-100 shadow-2xl">
-            <figure><img src="./images/latest1.png" alt="" /></figure>
-            <div class="card-body">
+          <div class="card card-compact w-96 bg-base-100 shadow-2xl ">
+            <figure ><img src="./images/latest1.png" alt="" /></figure>
+            <div class="card-body w-100%">
               <h2 class="card-title">Ducati XDIAVEL S-73</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
               <div class="card-actions justify-start">
@@ -226,9 +229,149 @@
 
       </section>
 
+      <!-- client section  -->
 
+      <section class="mt-24 ">
+        <h2 class=" text-3xl lg:text-5xl lg:font-semibold text-center mb-5 sm:font-medium"><span>Happy</span> <span class="text-btn_color">Client</span></h2>
+
+        <div class="flex flex-col lg:flex-row justify-around sm:gap-8">
+
+          <div class="card w-96 bg-slate-600 shadow-gray-900
+        flex justify-center items-center ">
+            <figure class="w-44 h-44 rounded-r-3xl  ">
+              <img src="./images/user-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <img src="./images/.png" alt="">
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Engineer
+              </h2>
+              <p>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+             
+              </div>
+          </div>
+
+          <div class="card w-96 bg-slate-600 shadow-slate-600 flex justify-center items-center">
+            <figure class=" w-44 h-44 rounded-r-3xl ">
+              <img src="./images/user-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="text-3xl font-semibold">Doctor</h2>
+              <p>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+             
+              </div>
+          </div>
+
+          <div class="card w-96 bg-slate-600 shadow-slate-600 flex justify-center items-center">
+            <figure class="rounded-r-3xl w-44 h-44 items-center">
+              <img src="./images/user-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="text-3xl font-semibold">Banker</h2>
+              <p>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+             
+              </div>
+          </div>
+        </div>
+    
+      </section>
+
+      <section class="mt-48">
+        <h2 class=" text-3xl lg:text-5xl font-medium lg:font-bold text-center mb-10">Frequently Asked <span class="text-btn_color">Questions</span></h2>
+        
+        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center ">
+          <img class="w-50% h-50%" src="./images/faq.png" alt="">
+
+          <div class="flex flex-col lg:w-3/5 gap-6">
+           
+            <div class="collapse collapse-arrow bg-base-200 ">
+              <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-title text-xl font-medium">
+                What are the most important things I should
+know about riding a bike?
+              </div>
+              <div class="collapse-content font-light"> 
+                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-title text-xl font-medium">
+                How can I tell if my helmet is old and I need a 
+new one?
+              </div>
+              <div class="collapse-content"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,</p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                My bike has been in storage is it safe to ride?
+              </div>
+              <div class="collapse-content"> 
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, </p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                What rules should I follow when riding my bike?
+              </div>
+              <div class="collapse-content"> 
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </section>
     </main>
 
+    <footer class="footer p-16 bg-neutral text-neutral-content mt-24  bg-black flex flex-col lg:flex-row items-center justify-evenly">
+      <aside>
+       <div class="flex gap-8 pl-5"> <a href="">Download Now</a>
+       <a href="">Licence</a></div>
 
+         <div class="sm:w-100% p-5"  >
+          <ul class="flex ul-style gap-5 ">
+            <li><a href="">about</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">help</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <p>© 2020 bike. All rights reserved</p>
+      </aside> 
+      <nav>
+        <!-- <h6 class="footer-title">Social</h6>  -->
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg> -->
+            <img src="./images/android.png" alt="">
+          </a>
+          <a>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg> -->
+          
+            <img src="./images/ios.png" alt="">
+          </a>
+
+          <!-- <a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a> -->
+        </div>
+      </nav>
+    </footer>
 </body>
 </html>
